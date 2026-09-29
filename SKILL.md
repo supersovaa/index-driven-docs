@@ -1,6 +1,6 @@
 ---
 name: index-driven-docs
-description: Use for new documentation trees to keep file and directory names semantic, represent hierarchy and reading order through per-directory index files, and avoid conflicting navigation schemes.
+description: Use for new documentation trees to keep file and directory names semantic, represent hierarchy and reading order through per-directory index files, and place directory-local guidance at the scope that shares it.
 ---
 
 # Index-driven docs
@@ -18,6 +18,14 @@ If documentation is itself the project's primary deliverable, the project root m
 If an existing project already has a clear documentation-root convention, follow it.
 
 Do not retrofit an existing documentation tree merely to satisfy this skill.
+
+## Place directory-local guidance by scope
+
+Place local `SKILL.md` files only where a subtree needs its own guidance, at the narrowest directory shared by that guidance.
+
+When parent and child guidance differ, narrow the broader guidance by moving it into the applicable sibling directories.
+
+Keep each directory scope internally consistent so the repository structure expresses where its guidance applies.
 
 ## Index every documentation level
 
