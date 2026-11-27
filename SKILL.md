@@ -1,13 +1,13 @@
 ---
 name: index-driven-docs
-description: Use for new documentation trees to keep file and directory names semantic, represent hierarchy and reading order through per-directory index files, and avoid conflicting navigation schemes.
+description: Create a new documentation tree or subtree with semantic path names and a per-directory index for hierarchy, navigation, and reading order.
 ---
 
 # Index-driven docs
 
 Use this skill when creating a new documentation tree, including a new documentation subtree inside an existing project.
 
-The core rule is simple: paths describe meaning; index files describe structure and order.
+Give files and directories names that explain their subject. Use each directory’s index to show hierarchy and reading order.
 
 ## Scope
 
